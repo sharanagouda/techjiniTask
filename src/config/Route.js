@@ -8,7 +8,7 @@ export default class Routes extends Component {
     render() {
       return (
           <Router>
-                <Scene key="user" hideNavBar={true} initial={this.props.loggedIn}>
+                <Scene key="user" initial={this.props.loggedIn}>
                     <Scene key="home" component={Home} title="Home"/>
                     <Scene key="listScreen" component={ListScreen} title="Home"/>
                 </Scene>
